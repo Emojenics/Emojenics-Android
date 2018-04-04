@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/saved_emoji"
+        android:icon="@drawable/savedemoji"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+        android:title="Saved Emojis"
+            />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/account"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:title="Account" />
+        <item
+            android:id="@+id/enable_keyboard"
+            android:icon="@drawable/keyboard"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:title="Enable Keyboard" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:title="Settings" />
+        <item
+            android:id="@+id/build_emoji"
+            android:icon="@drawable/img_buidimoji"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:title="Build Emojis" />
+        <item
+            android:id="@+id/terms_use"
+            android:icon="@drawable/termsofuse"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:title="Terms of Use" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:title="About" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:tint="@color/skyBlue"
+            android:textColor="@color/skyBlue"
+            android:textSize="40sp"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>

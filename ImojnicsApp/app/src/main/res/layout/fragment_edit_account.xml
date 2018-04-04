@@ -1,0 +1,293 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.imojen.imojnicsapp.EditAccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/bg">
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="20dp">
+                <!-- <ImageView
+                     android:src="@mipmap/bg"
+                     android:id="@+id/im1"
+                     android:scaleType="fitXY"
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"/> -->
+                <RelativeLayout
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:id="@+id/profilepageprofileimage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:src="@mipmap/profileimage" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignBottom="@+id/profilepageprofileimage"
+                        android:layout_alignLeft="@+id/profilepageprofileimage"
+                        android:src="@mipmap/edityellow" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="30dp"
+                    android:text="Name"
+                    android:textColor="@color/white" />
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:id="@+id/usericon"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:src="@mipmap/user" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/usericon"
+                        android:background="@null"
+                        android:textColorHint="@color/aboutustextcolr"
+                        android:textColor="@color/aboutustextcolr"
+                        android:hint=""
+                        android:text="Alex Roy"
+
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="30dp"
+                    android:text="Phone Number"
+                    android:textColor="@color/white" />
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:id="@+id/phoneicon"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:src="@mipmap/phonelightyellow" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/phoneicon"
+                        android:background="@null"
+                        android:textColorHint="@color/aboutustextcolr"
+                        android:textColor="@color/aboutustextcolr"
+                        android:hint=""
+                        android:text="80010050"
+
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="30dp"
+                    android:text="Email"
+                    android:textColor="@color/white" />
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:id="@+id/emailicon"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:src="@mipmap/emaillightyellow" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/emailicon"
+                        android:background="@null"
+                        android:textColorHint="@color/aboutustextcolr"
+                        android:textColor="@color/aboutustextcolr"
+                        android:hint=""
+                        android:text="Alex@gmail.com"
+
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="30dp"
+                    android:text="DOB"
+                    android:textColor="@color/white" />
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:id="@+id/dobicon"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:src="@mipmap/doblightyellow" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/dobicon"
+                        android:background="@null"
+                        android:textColorHint="@color/aboutustextcolr"
+                        android:textColor="@color/aboutustextcolr"
+                        android:hint=""
+                        android:text="20/2/2001"
+
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"/>
+                </RelativeLayout>
+
+
+
+
+
+
+
+                <!-- <android.support.v7.widget.AppCompatButton
+                     android:id="@+id/btn_login"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="24dp"
+                     android:layout_marginBottom="24dp"
+                     android:padding="12dp"
+                     android:text="Login"/> -->
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/login"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginRight="0dp"
+                        android:gravity="center"
+                        android:src="@drawable/signinbg" />
+
+                    <TextView
+                        android:id="@+id/logintxtfld"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignBottom="@+id/login"
+                        android:layout_alignLeft="@+id/login"
+                        android:layout_alignRight="@+id/login"
+                        android:layout_alignTop="@+id/login"
+                        android:gravity="center"
+                        android:text="DONE"
+                        android:textColor="@color/white" />
+
+
+                </RelativeLayout>
+
+
+                <!-- android:layout_marginTop="30dp" -->
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
